@@ -1,2 +1,3 @@
 # first_HTML-CSS
-This is my first Git-Hub Reprository
+This is my first Git-Hub Reprository.
+Author = Ramit.
