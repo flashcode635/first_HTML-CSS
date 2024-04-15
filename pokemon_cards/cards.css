@@ -7,6 +7,7 @@ html,body{
     height: 100%;
     width: 100%;
 }
+/* above is the boiler plate of css */
 #main{
     height: 100%;
     width: 100%;
@@ -19,14 +20,11 @@ html,body{
     height: 300px;
     width: 240px;
    
-    position: absolute;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50% ,-50%); */
+    position: absolute; /*  card don't depend on parent for its position */
     border: 2px solid salmon;
     border-radius: 20px;
-    overflow: hidden;
-    translate: -100px ;
+    overflow: hidden;  /* It trims the edges of cards accoring to the border of main */
+    translate: -100px ; /* moves cards a bit away from centre */
 }
 #card4{
     rotate: -21deg;
@@ -51,9 +49,9 @@ html,body{
     background-color: aqua;
 }
 img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    height: 100%; 
+    width: 100%;  /* now, image card ki height and width mei poori trha sma jaegi, since it is 100% of its parent. */
+    object-fit: cover;/* stretching of photo according to card, make it better fit in card  */
 }
 #card1:hover{
     z-index: 200;

@@ -45,4 +45,11 @@ html,body{
 p{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(2, 2, 132);
     margin: 14px;
+    transform: -5px 0px;
+}
+img{
+    height: 6vh;
+    width: 6vw;
+    margin: 12px;
+    translate: 10px 0px;
 }
