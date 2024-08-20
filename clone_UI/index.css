@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(9, 9, 9);
+    padding-top: 4px;
+    padding-left: 8%;
+}
+
+.top-link{
+    color: grey;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+#lower{
+    color: rgb(128, 146, 163);
+    padding-top: 35px;
+     padding-right: 140px;
+      font-weight: 400;
+      padding-bottom: 65px;
+}
