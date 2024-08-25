@@ -7,33 +7,64 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body >
-            <!-- div bnane ki zrurt nhi h , better this way -->  
-    <img src="https://code.visualstudio.com/favicon.ico" alt="" style="width: 23px;padding-right: 6px ;">
-    <span style="color: aliceblue;font-weight: 400;"> Visual Studio Code </span>
-    <span  class="top-link"> docs    </span>
-    <span  class="top-link"> Update  </span>
-    <span  class="top-link"> Blog    </span>
-    <span  class="top-link"> API     </span>
-    <span class="top-link">Extensions</span>
-    <span class="top-link" > FAQ     </span>
-    <input type="text" placeholder="search docs" />
-    <button> download</button>
+    <!-- top  -->
+    <div style="font-family: 'Segoe UI'; display: flex; justify-content: space-between; padding-top: 7px; "> 
+    
+        <div style=" display:flex; justify-content: space-evenly; "> 
+            <img src="https://code.visualstudio.com/favicon.ico" alt="" style="width: 24px;height: 27px;; padding-right: 6px ;">
+        <b><span id="VS"> Visual Studio Code </span>
+        <span  class="top-link"> docs    </span>
+        <span  class="top-link"> Update  </span>
+        <span  class="top-link"> Blog    </span>
+        <span  class="top-link"> API     </span>
+        <span class="top-link">Extensions</span>
+        <span class="top-link" > FAQ     </span> </b> </div>
+        <div style=" padding-right: 8%; ;display: flex;justify-content:space-between;padding-right:150px;"> <input type="text" placeholder="search docs" style=" background-color: black; color: rgb(168, 173, 173);border-color: rgb(166, 167, 168); border-radius: 5px;" />
+        <span> <button id="download"> <b>  Download </b> </button> </span>
+        </div>
 
+    </div>
+
+    <!-- usse neeche chooti si bar -->
     <div id="lower">
-     <center> <a target="_self" href="http://google.com" style="padding-right: 7px;"> Version 1.92</a>is now available! Read about the new features and fixes from July. </center>   
+     <center> <a target="_self" href="http://google.com" style="padding-right: 7px; color: rgb(105, 173, 233);"> Version 1.92</a>is now available! Read about the new features and fixes from July. </center>   
     <!-- centre tag places the content at centre -->
     </div>
 
-    <div style="display: flex;justify-content: space-between;margin-right: 100px;"> 
-        <div style="color: bisque;background-color: blueviolet;"> 
-            <h1 style="font-size: 64px;"> Code <br>
+    <!-- 2 div adjacent -->
+    <div style="display: flex;justify-content: space-between;margin-right: 100px; "> 
+        <div style="color: bisque;font-family: 'Segoe UI'"> 
+            <h5 style="color: rgb(128, 146, 163) ;padding-left: 30px;"> Free. Built on open source. Runs everywhere.</p>
+            <h1 style="font-size: 60px; margin-top: 20px;"> Code <br>
                 Editing. <br>
-                 Redefined.</h1>
-            <br>
-            <button type="button" style="background-color: rgb(31, 121, 200);color: antiquewhite;">Download for Windows</button>
+                 Redefined.  </h1>
+            
+            <button type="button" id="button" style="padding-left: 10px;"> <b> Download for Windows</b> </button>
+             <h4 style="  color: rgb(121, 172, 180);font-weight: 70; font-size: small;"> <b>  Web, Insiders edition, or other platforms </b> </h4>  
+            
+          <h5 style=" color: rgb(128, 146, 163);font-weight: 50; margin-top: 10px;font-size: small;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ">  By using VS Code, you agree to its license and privacy statement.</h5>
         </div>
 
         <div > <img src="https://code.visualstudio.com/assets/home/home-screenshot-mac-2x-v2.png" alt="" width="730px" >
+        </div>
+
+    </div>
+
+    <!-- next page {page:2 } -->
+    <div style="display: flex;justify-content: space-between;margin-right: 100px; margin-top: 7%; "> 
+        <div style="color: rgb(133, 135, 137);font-family: 'Segoe UI'; margin-right: 79px; "> 
+             <span style=" font-size: 32px; color: azure;"> <b>Code fully customized </b> </span>
+             <br> <br>
+          <b>   Customize your VS Code UI and layout so that it fits your coding style.
+                <br> <br>
+            Color themes let you modify the colors in VS Code's user interface to suit your preferences and work environment.
+            <br> <br>
+            Settings Sync enables you to share your user settings across your VS Code instances with the Settings Sync feature.
+            <br> <br>
+            Profiles let you create sets of customizations and quickly switch between them or share them with others. </b>
+        </div>
+
+        <div > <img src="https://code.visualstudio.com/assets/home/swimlane-customized.png" alt="" width="730px" >
         </div>
 
     </div>
